@@ -1,0 +1,43 @@
+DataTypesDemo
+/*public class DataTypesDemo {
+	public static void main(String[] arys) {
+		int value1 = 9 / 2;
+		float value2 = 101f / 61f;
+		double value3 = 10d / 6d;
+		float value4 = 5 / 2.5f;
+		System.out.println(" value 1=" + value1);
+		System.out.println(" value 2=" + value2);
+		System.out.println(" value 3=" + value3);
+		System.out.println(" value 4=" + value4);
+
+	}
+
+}
+*/
+FirstProgram
+/*public class Firstprogram {
+	public static void main(String[] arys) {
+		System.out.println("hello sairam");
+		System.out.println("TNSIF session");
+		System.out.println(" sales force");
+	}
+
+}
+*/
+TypeCasting
+/*public class TypeCasting {
+	public static void main(String[] arys) {
+		byte b = 10;
+		int i = b;
+		System.out.println(i);
+
+		float f = 22.3f;
+		double d = f;
+		System.out.println(d);
+		float f2 = 34.56f;
+		int r = (int) f2;
+		System.out.println(r);
+	}
+
+}
+*/
