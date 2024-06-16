@@ -1,0 +1,81 @@
+Employee
+  /*public class Employee 
+{
+	private String name;
+	private int id;
+	
+	static  String companyName="TNS";
+	Employee (String name, int id)
+	{
+		this.name=name;
+		this.id=id;
+		
+	}
+	@Override
+	public String toString() {
+		return "Employee [name=" + name + ", id=" + id
+				+ ",company="+companyName+"]";
+	}
+	
+
+}
+*/
+  EmployeeDemo
+  /*public class EmployeeDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee e= new Employee(" sathya",85);
+		System.out.println(e);
+		Employee e1= new Employee(" srikanth",91);
+		System.out.println(e1);
+
+	}
+
+}
+*/
+  MyClass
+    /*public class Myclass 
+{
+	private int section;//non static or instance 
+    private static int srNo;//static or class variable
+    
+    //static block
+static
+{
+	System.out.println("---------Within Static Block------");
+	srNo++;
+}
+Myclass()
+
+{
+	System.out.println(" within default constructor");
+	srNo++;//2
+	section++;//1
+
+
+}
+@Override
+public String toString() {
+	return "Myclass [  serial No=" + srNo+",section=" + section + "]";
+}
+ static void display()
+{
+	System.out.println("serial No."+ srNo);
+}
+	
+}
+*/
+    MyClassDemo
+    /*public class MyclassDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Myclass o1=new Myclass();
+		System.out.println(o1);
+		Myclass.display();
+		
+
+	}
+
+}*/
