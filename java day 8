@@ -1,0 +1,19 @@
+Excutor
+  /*import com.tns.day61.Base;
+
+public class Executor {
+	public static void main(String[] args)
+	{
+		Base obj=new Base();
+		obj.varPublic=60;
+		//obj.varPrivate=80;
+		//obj.varProtected=90;
+		//obj.varDefault=55;
+		obj.methodPublic();
+		//obj.methodPrivate();
+		//obj.methodProtected();
+		//obj.methodDefault();
+	}
+
+}
+*/
