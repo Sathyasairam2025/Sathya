@@ -1,0 +1,79 @@
+Rectangle
+  /*public class Rectangle extends Shape
+{
+	private float width,height;
+	
+	public Rectangle()
+	{
+		this.width=5.0f;
+		this.height=2.0f;
+	}
+	public Rectangle( float width, float height)
+	{
+		this.width=width;
+		this.height=height;
+	}
+
+	
+	 void calArea()
+	{
+		
+		 area=width*height;
+	}
+}
+*/
+  Square
+  /*public class Square  extends Shape
+{private float side;
+
+public Square()
+{
+	side=2.0f;
+	
+}
+public Square( float side)
+{
+	this.side=side;
+}
+
+
+ void calArea()
+{
+	
+	super.area=side*side;
+}
+
+
+}
+*/
+  Shape
+    /*public  abstract class Shape {
+protected float area;
+//abstract method
+abstract void calArea();//no implementation only declaration
+
+void show()//normal method
+{
+	System.out.println("Area of Shape is"+area);
+}
+}
+*/
+    AbstractDemo
+    /*public class AbstractDemo {
+
+	public static void main(String[] args)
+	{
+		Square sq=new Square();
+		Rectangle re=new Rectangle();
+         sq.calArea();
+         sq.show();
+         re.calArea();
+         re.show();
+         
+         Shape color;
+         color=new Square();
+         color=new Rectangle();
+	}
+
+}
+*/
