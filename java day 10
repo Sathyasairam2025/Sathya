@@ -1,0 +1,67 @@
+FinalMethod
+  /*public class MyclassDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Myclass o1=new Myclass();
+		System.out.println(o1);
+		Myclass.display();
+		
+
+	}
+
+}*/
+  FinalMethodDemo
+    /*public class FinalMethodDemo  extends FinalMethod
+{
+	//can not override the final method
+		void show()
+		{
+			System.out.println(a);
+		}
+ 
+}
+
+*/
+  FinalVariable
+    /*public class FinalVariable 
+{
+	 final int x=100;
+// blank final static not defined
+	 final static  int Y;
+	 final static  int Z =10;
+	 void change()
+	 {
+		// x=30; //re assign no possible x=30;
+		 //Y=100;
+	 }
+	 static
+	 {
+		 Y=20;// static block executed first
+	 }
+}
+*/
+    FInalClassDemo
+    /*final class Example//base
+{
+	
+	void show()
+	{
+		System.out.println("Final class cannot be inherited");
+	}
+}
+ /*class Example1 extends Example//derived
+{
+	
+}*/
+/*public class FinalClassDemo {
+
+	public static void main(String[] args) {
+		
+     Example e=new Example();
+      e.show();
+	}
+
+}
+*/
+    
