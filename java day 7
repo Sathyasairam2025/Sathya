@@ -1,0 +1,129 @@
+Student1
+  /*public class student1  extends Person
+{
+private String clas;
+private float per;
+public student1() 
+{
+	
+}
+public student1(String name, String city,String clas,float per) {
+	super(name, city);
+	this.clas=clas;
+	this.per=per;
+}
+public String getClas() {
+	return clas;
+}
+public void setClas(String clas) {
+	this.clas = clas;
+}
+public float getPer() {
+	return per;
+}
+public void setPer(float per) {
+	this.per = per;
+}
+@Override
+public String toString() {
+	return "student1 [clas=" + clas + ", per=" + per + ", getName()=" + 
+getName() + ", getCity()=" + getCity() + "]";
+}
+
+
+
+
+}
+*/
+  Person
+  /*public class Person 
+{
+	private String name;
+	private String city;
+	public Person()
+	{
+		
+	}
+	public Person(String name, String city) {
+		super();
+		this.name = name;
+		this.city = city;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getCity() {
+		return city;
+	}
+	public void setCity(String city) {
+		this.city = city;
+	}
+	
+
+}
+*/
+  Employee
+    /*
+    public class Employee extends Person
+{
+   private int empID;
+   private float salary;
+   private String dept;
+   public Employee()
+   {
+	   
+   }
+public Employee(String name, String city, int empID,float salary,String dept)
+{
+	super(name, city);
+	this.dept=dept;
+	this.empID=empID;
+	this.salary=salary;
+	
+}
+public int getEmpID() {
+	return empID;
+}
+public void setEmpID(int empID) {
+	this.empID = empID;
+}
+public float getSalary() {
+	return salary;
+}
+public void setSalary(float salary) {
+	this.salary = salary;
+}
+public String getDept() {
+	return dept;
+}
+public void setDept(String dept) {
+	this.dept = dept;
+}
+@Override
+public String toString() {
+	return "Employee [empID=" + empID + ", salary=" + salary + ", dept=" + dept + ", getName()=" + getName()
+			+ ", getCity()=" + getCity() + "]";
+}
+
+   
+}
+*/
+HierarchicalDemo
+    /*
+
+    public class HierarchicalDemo {
+
+	public static void main(String[] args) 
+  {//dynamic binding
+		
+       Person p;
+       p=new Employee(" sathya"," hosur",85,20.5f,"ECE");
+       System.out.println(p);
+       p=new student1("uday","mumbai","6th sem", 9.3f);
+       System.out.println(p);
+	}
+
+} */
