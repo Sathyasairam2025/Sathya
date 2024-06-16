@@ -1,0 +1,90 @@
+MthodOverLoading
+/*public class Methodoverloading
+{
+	public static int addition(int a, int b)
+	{
+		return a+b;
+	}
+	public static int addition(int a, int b, int c)
+	{
+		return a+b+c;//overloaded
+	}
+	public static int addition(int a)
+	{
+		return a;//overloaded
+	}
+	public static float addition(float a)
+	{
+		return a;//overloaded change the no. of parameter 
+	}
+}
+*/
+MthodOverLoadingDemo
+/*public class MethodoverloadingDemo 
+{
+	public static void main(String[] args)
+	{
+		
+	System.out.println(Methodoverloading.addition(12,3));
+	System.out.println(Methodoverloading.addition(4,2,3));
+	System.out.println(Methodoverloading.addition(10));
+	System.out.println(Methodoverloading.addition(6f));
+	} 
+
+}
+*/
+RBI
+/*public class RBI 
+{
+	public float getRateofInterest()
+	{
+		return 6.7f;
+	}
+
+}
+*/
+SBI
+/*public class SBI extends RBI
+{
+public float getRateofInterest()
+{
+	return 7.0f;
+}
+}
+*/
+HDFC
+/* public class HDFC extends RBI
+{
+	public float getRateofInterest()
+	{
+		return 8.0f;
+	}
+
+}
+*/
+
+ICICI
+/*public class ICICI extends RBI
+{
+	public float getRateofInterest()
+	{
+		return 8.2f;
+	}
+
+}*/
+
+MthodOverRiddding
+public class MethodOverridingDemo {
+
+	public static void main(String[] args) 
+	{
+		RBI bank;
+		bank= new SBI();
+		System.out.println(bank.getRateofInterest());
+		bank= new ICICI();
+		System.out.println(bank.getRateofInterest());
+		bank= new HDFC();
+		System.out.println(bank.getRateofInterest());
+	}
+
+}*/
