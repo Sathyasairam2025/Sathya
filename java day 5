@@ -1,0 +1,144 @@
+ScannerDemo
+  /*import java.util.Scanner;
+
+public class scannerDemo {
+
+	public static void main(String[] args) {
+		Scanner ob=new Scanner(System.in);
+		System.out.println("enter the name");
+		String name=ob.next();
+		System.out.println("enter the income");
+		int income =ob.nextInt();
+		System.out.println("enter the gender");
+		String gender=ob.next();
+		
+		person p=new person();
+		p.setName(name);
+        p.setIncome(income);	
+        p.setGender(gender);
+        System.out.println(p);
+        
+		
+
+	}
+
+}
+*/
+  Person
+  /*public class person 
+{
+	private String name;
+	private int income;
+	private String gender;
+	private int age;
+	private int tax;
+ 	@Override
+	public String toString() {
+		return "person [name=" + name + ", income=" + income + ", gender=" + gender + ", age=" + age + ", tax=" + tax
+				+ "]";
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getIncome() {
+		return income;
+	}
+	public void setIncome(int income) {
+		this.income = income;
+	}
+	public String getGender() {
+		return gender;
+	}
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public int getTax() {
+		return tax;
+	}
+	public void setTax(int tax) {
+		this.tax = tax;
+	}
+	
+
+}
+*/
+  CustomerDemo
+    /*public class CustomerDemo {
+
+	public static void main(String[] args) {
+		
+		//Customer obj=new Customer();
+		//obj.setCustomerCity("bangalore");
+		//obj.setCustomerId(101);
+		//obj.setCustomerName("sathya");
+		//System.out.println(obj);
+		Customer obj=new Customer("sathya",101,"bangalore");
+		System.out.println(obj);
+
+	}
+
+}
+*/
+    Customer
+    /*public class Customer 
+{
+	private String customerName;
+	private int customerId;
+	private String customerCity;
+
+	//default constructor
+	public Customer ()
+	{
+		System.out.println(" Iam a default constructor");
+	}
+	//parameter constructor
+	
+	
+	//getter and setter
+	public String getCustomerName() {
+		return customerName;
+	}
+	
+	
+	public Customer(String customerName, int customerId, String customerCity) {
+		super();
+		this.customerName = customerName;
+		this.customerId = customerId;
+		this.customerCity = customerCity;
+	}
+	public void setCustomerName(String customerName) {
+		this.customerName = customerName;
+	}
+	public int getCustomerId() {
+		return customerId;
+	}
+	public void setCustomerId(int customerId) {
+		this.customerId = customerId;
+	}
+	public String getCustomerCity() {
+		return customerCity;
+	}
+	public void setCustomerCity(String customerCity) {
+		this.customerCity = customerCity;
+	}
+	@Override
+	public String toString() {
+		return "Customer [customerName=" + customerName + ", customerId=" + customerId + ", customerCity="
+				+ customerCity + "]";
+	
+	
+	}
+	
+//toString method
+}
+*/
+  
