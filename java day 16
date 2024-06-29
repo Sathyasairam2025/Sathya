@@ -1,0 +1,105 @@
+
+ UsingRunnable
+
+/*package com.tns.day15;
+
+public class UsingRunnable implements Runnable
+{
+	Thread t;
+	int h, l;
+	String msg;
+	public UsingRunnable(int l,int h, String msg)
+	{
+		this.h=h;
+		this.l=l;
+				this.msg=msg;
+				t=new Thread(this,"ChildThread");
+		
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		//for(int i=1; i<=n; i++)
+		{
+			
+		}
+	}
+
+}*/
+
+ RunnableDemo 
+
+/*   package com.tns.day15;
+
+public class RunnableDemo 
+{
+public static void main(String[] args)
+{
+	UsingRunnable ur= new UsingRunnable(10,20,"Hello");
+	Runnable runnable =new Runnable()
+			{
+		public void run()
+		{System.out.println("Runnable with Anonymous Class");
+			
+		}
+			};
+	Thread t1= new Thread(runnable);
+	t1.start();
+}
+}*/
+
+ ChildThread
+
+ /* package com.tns.day15;
+
+public class ChildThread/*child class*/ extends Thread//parent class or pre-define class
+/*{
+	private int n;
+	private String msg;
+	public ChildThread(int n, String msg)
+	{
+		this.n=n;
+		this.msg=msg;
+	}
+public void run()
+{
+	for(int i=1; i<=n; i++)//n=4
+	{
+		try
+		{
+			Thread.sleep(300);
+		}
+		catch(InterruptedException e)
+		{
+			System.err.println("Thread interrupted :"+e.getMessage());
+			Thread.currentThread().interrupt();
+
+			System.err.println("Thread interrupted :"+e.getMessage());
+			Thread.currentThread().interrupt();
+			
+			
+			System.out.println(msg+i+" "+Thread.currentThread().getName());
+			
+		}
+		
+	}
+}
+}*/
+
+ ThreadDemo 
+/*package com.tns.day15;
+
+public class ThreadDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ChildThread t1 = new ChildThread(4,"Hello");
+		ChildThread t2 = new ChildThread(5,"Second Thread");
+		t1.start();
+		t2.start();
+		t1.run();//explicitely calling
+	}
+
+}*/
+
