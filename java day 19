@@ -1,0 +1,100 @@
+GenericClass
+
+/*public class GenericClass<T> 
+{
+	T data;
+
+	public T getData() {
+		return data;
+	}
+
+	public void setData(T data) {
+		this.data = data;
+	}
+	
+
+} */
+
+   GenericClassTest
+/*public class GenericClassTest
+{
+	public static void main(String[] args)
+	{
+		GenericClass<Integer> ob= new GenericClass<Integer>();
+		ob.setData(10);
+		System.out.println(ob.getData());
+		GenericClass<String> ob1= new GenericClass<String>();
+		ob1.setData("Hello");
+		System.out.println(ob1.getData());
+		
+	}
+
+}*/
+
+ GenericConstructor 
+  
+/*public class GenericConstructor 
+{
+	private double v;
+	
+	//generic constructor
+	public <T extends Number>GenericConstructor(T t)
+	{
+		v=t.doubleValue();
+	}
+	void show()
+	{
+		System.out.println("Vlaue of v in double type is:"+ v);
+	}
+	
+
+}*/
+
+ GenericConstructorDemo
+  
+/*public class GenericConstructorDemo {
+
+	public static void main(String[] args)
+	{
+		System.out.println("Number to Double Conversation");
+		GenericConstructor obj=new GenericConstructor(10);
+		obj.show();
+		GenericConstructor objOne=new GenericConstructor(136.45f);
+		objOne.show();
+	}
+
+}*/
+ GenericMethod
+    
+/*public class GenericMethod
+{
+	
+
+	public<E> void displayArrayElements(E elements[])
+	{
+		for(E element : elements)//for each
+		{
+			System.out.println("element is:"+element);
+		}
+	}
+
+
+}  */
+   
+ GenericMethodTest
+
+     
+/*public class GenericMethodTest {
+
+	public static void main(String[] args) {
+		GenericMethod obj =new GenericMethod();
+		Integer[] intarray= {10,20,30,40};
+		String[] str= {"java","programming",
+				"learning"};
+		obj.displayArrayElements(intarray);
+		obj.displayArrayElements(str);
+
+	}
+
+}*/
+
