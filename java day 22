@@ -1,0 +1,50 @@
+
+ Message 
+
+//package com.tns.day20;
+
+public interface Message 
+{
+	public void greet(String name);
+
+
+
+}//
+
+isOdd
+
+//package com.tns.day20;
+
+public interface isOdd
+{
+	public boolean check(int a);
+
+}//
+ Cube 
+
+
+//package com.tns.day20;
+
+public interface Cube 
+{
+	int calculate(int a);
+
+}//
+ LambdaWidthParameter
+
+//package com.tns.day20;
+
+public class LambdaWidthParameter {
+
+	public static void main(String[] args) {
+		Cube c = (a)->{return a*a*a;};
+		System.out.println(c.calculate(2));
+		
+		isOdd b = (a)->{return a%2!=0?true:false;};
+		System.out.println(b.check(3));
+		
+		Message m = (name)->{ System.out.println("Hello "+name);};
+		m.greet("Sathya");
+	}
+
+}//
